@@ -1,3 +1,4 @@
 
 const country = require('./country');
-module.exports = {...country};
+const car = require('./car');
+module.exports = {...country,...car};
